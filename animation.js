@@ -19,9 +19,9 @@ function scrollFunction() {
 
 
 
-function mouseDown() {
-    mybutton.textContent = "Mouse is down";    
-}
+/*function mouseDown() {
+    mybutton.textContent = "Click";    
+}*/
 
 
 function mouseUp() {
@@ -42,6 +42,6 @@ function changeColour() {
 function gotToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-    myTitle.textContent = myTitle.textContent + "+";
+    // myTitle.textContent = myTitle.textContent + "+";
     
 }

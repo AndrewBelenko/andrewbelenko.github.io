@@ -10,13 +10,54 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}  
+} 
+
+.mainPhoto {
+  background-image: url("images/backgroundGradient.png");
+
+    /* Set a specific height */
+    height: 1300px;
+
+    /* Create the parallax scrolling effect */
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainPhoto2 {
+  background-image: url("images/resize.php.jfif");
+
+    /* Set a specific height */
+    height: 1500px;
+
+    /* Create the parallax scrolling effect */
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .middleSection
 {
     background-image: url("images/mountain.jpg");
     /* Set a specific height */
-    height: 200px;
+    height: 250px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bottomSection
+{
+    background-image: url("images/backgroundGradient.png");
+    /* Set a specific height */
+    height: 1000px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -51,7 +92,6 @@
 
 
 
-
 /* -------Buttons layout------- */
 #myBtn {
     display: none;
@@ -69,21 +109,11 @@
     border-radius: 4px;
   }
 
-  #grad1 {
-    height: 1000px;
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, rgb(145, 229, 177), rgb(46, 134, 34)); /* Standard syntax (must be last) */
-  }
-
   .myPhoto {
         text-align: center;
         display: block;
   }
 
   img {
-    border-radius: 50%;
+    border-radius: 25%;
   }
-
-  /* #myBtn:hover {
-    backround-color: #555;
-  } */
